@@ -11,7 +11,7 @@
 
 - name: Compress undercloud image
   shell: |
-    virt-sparsify --tmp {{ working_dir }} --check-tmpdir fail \
+    virt-sparsify --tmp {{ working_dir }} --check-tmpdir {{ virt_sparsify_checktmpdir_flag }} \
       --compress undercloud-base.qcow2 undercloud.qcow2
     md5sum undercloud.qcow2 > undercloud.qcow2.md5
   environment:
