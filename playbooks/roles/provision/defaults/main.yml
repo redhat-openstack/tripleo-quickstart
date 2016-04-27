@@ -1,2 +1,0 @@
-non_root_user: stack
-virt_host_key: "{{ local_working_dir }}/id_rsa_virt_host"

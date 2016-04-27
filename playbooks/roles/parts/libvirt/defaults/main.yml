@@ -1,9 +1,0 @@
-libvirt_packages:
-  - qemu-kvm
-  - libvirt
-  - libvirt-python
-  - libguestfs-tools
-  - python-lxml
-    # python-lxml is required by the ansible "virt" module
-
-libvirtd_service: libvirtd

@@ -1,6 +1,0 @@
----
-dependencies:
-  - role: libvirt
-  - role: setup/user
-  - role: setup/overcloud
-  - role: setup/undercloud

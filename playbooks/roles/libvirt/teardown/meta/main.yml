@@ -1,5 +1,0 @@
----
-dependencies:
-  - role: libvirt
-  - role: teardown/nodes
-  - role: teardown/user
